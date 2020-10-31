@@ -42,7 +42,7 @@ const SeedCertifier = () => {
     }
     await axios.post('http://localhost:3006/seedcertifier',{props:seedCertifierObject})
     .then(async res => {
-      console.log("Added");
+      console.log(res);
     });
   }
 
